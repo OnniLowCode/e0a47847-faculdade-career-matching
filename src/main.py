@@ -71,6 +71,7 @@ app.include_router(company_routes.router, prefix="/api/v1")
 app.include_router(job_routes.router, prefix="/api/v1")
 app.include_router(subject_routes.router, prefix="/api/v1")
 app.include_router(matching_routes.router, prefix="/api/v1")
+app.include_router(integrations_routes.router, prefix="/api/v1")
 
 
 @app.get("/", tags=["Root"])
