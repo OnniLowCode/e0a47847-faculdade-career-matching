@@ -10,7 +10,8 @@ from src.api.routes import (
     company_routes,
     job_routes,
     subject_routes,
-    matching_routes
+    matching_routes,
+    integrations_routes
 )
 
 # Create database tables
